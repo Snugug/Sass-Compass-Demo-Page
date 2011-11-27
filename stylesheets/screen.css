@@ -1,0 +1,219 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+h1 {
+  background: #538ea3;
+  font-size: 34.033px;
+  color: #b5d0da;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -o-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  margin: 10px;
+}
+
+.header-nav {
+  margin: 0 auto;
+}
+.header-nav li {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0.5em 1.5em;
+  line-height: 1.2em;
+  border-style: solid;
+  border-width: 1px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #b6e2e2;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(2%, #dbf1f1), color-stop(50%, #c5e8e8), color-stop(51%, #b6e2e2), color-stop(100%, #538ea3));
+  background: -webkit-linear-gradient(#ffffff, #dbf1f1 2%, #c5e8e8 50%, #b6e2e2 51%, #538ea3);
+  background: -moz-linear-gradient(#ffffff, #dbf1f1 2%, #c5e8e8 50%, #b6e2e2 51%, #538ea3);
+  background: -o-linear-gradient(#ffffff, #dbf1f1 2%, #c5e8e8 50%, #b6e2e2 51%, #538ea3);
+  background: -ms-linear-gradient(#ffffff, #dbf1f1 2%, #c5e8e8 50%, #b6e2e2 51%, #538ea3);
+  background: linear-gradient(#ffffff, #dbf1f1 2%, #c5e8e8 50%, #b6e2e2 51%, #538ea3);
+  border-color: #538ea3;
+  color: #063057;
+  text-shadow: white 0 1px 0;
+}
+.header-nav li:hover {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(2%, #fbfefe), color-stop(50%, #e9f6f6), color-stop(51%, #d0ecec), color-stop(100%, #72a5b7));
+  background: -webkit-linear-gradient(#ffffff, #fbfefe 2%, #e9f6f6 50%, #d0ecec 51%, #72a5b7);
+  background: -moz-linear-gradient(#ffffff, #fbfefe 2%, #e9f6f6 50%, #d0ecec 51%, #72a5b7);
+  background: -o-linear-gradient(#ffffff, #fbfefe 2%, #e9f6f6 50%, #d0ecec 51%, #72a5b7);
+  background: -ms-linear-gradient(#ffffff, #fbfefe 2%, #e9f6f6 50%, #d0ecec 51%, #72a5b7);
+  background: linear-gradient(#ffffff, #fbfefe 2%, #e9f6f6 50%, #d0ecec 51%, #72a5b7);
+}
+.header-nav li.active {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0.5em 1.5em;
+  line-height: 1.2em;
+  border-style: solid;
+  border-width: 1px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #e11a2c;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(2%, #e94553), color-stop(50%, #e83b4b), color-stop(51%, #e11a2c), color-stop(100%, #e11a2c));
+  background: -webkit-linear-gradient(#ffffff, #e94553 2%, #e83b4b 50%, #e11a2c 51%, #e11a2c);
+  background: -moz-linear-gradient(#ffffff, #e94553 2%, #e83b4b 50%, #e11a2c 51%, #e11a2c);
+  background: -o-linear-gradient(#ffffff, #e94553 2%, #e83b4b 50%, #e11a2c 51%, #e11a2c);
+  background: -ms-linear-gradient(#ffffff, #e94553 2%, #e83b4b 50%, #e11a2c 51%, #e11a2c);
+  background: linear-gradient(#ffffff, #e94553 2%, #e83b4b 50%, #e11a2c 51%, #e11a2c);
+  border-color: #e11a2c;
+  color: #e11a2c;
+  text-shadow: #ee6d78 0 1px 0;
+}
+.header-nav li.active:hover {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(2%, #f0808a), color-stop(50%, #ee6975), color-stop(51%, #ea4958), color-stop(100%, #e94553));
+  background: -webkit-linear-gradient(#ffffff, #f0808a 2%, #ee6975 50%, #ea4958 51%, #e94553);
+  background: -moz-linear-gradient(#ffffff, #f0808a 2%, #ee6975 50%, #ea4958 51%, #e94553);
+  background: -o-linear-gradient(#ffffff, #f0808a 2%, #ee6975 50%, #ea4958 51%, #e94553);
+  background: -ms-linear-gradient(#ffffff, #f0808a 2%, #ee6975 50%, #ea4958 51%, #e94553);
+  background: linear-gradient(#ffffff, #f0808a 2%, #ee6975 50%, #ea4958 51%, #e94553);
+}
+.header-nav li.active a {
+  color: #b6e2e2;
+}
+.header-nav a {
+  color: #063057;
+  text-decoration: none;
+}
+
+.block-1 {
+  padding: 10px 20px 10px 20px;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid #538ea3;
+}
+.block-1:before {
+  content: "Hello World";
+  text-transform: uppercase;
+  background: #fff;
+  position: absolute;
+  color: #538ea3;
+  font-size: 13px;
+  margin: -17px 0 0 -5px;
+  padding: 0 5px 0 5px;
+}
+
+.block-2 {
+  padding: 10px 20px 10px 20px;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid #538ea3;
+}
+.block-2:before {
+  content: "Drupal Rocks";
+  text-transform: uppercase;
+  background: #fff;
+  position: absolute;
+  color: #538ea3;
+  font-size: 13px;
+  margin: -17px 0 0 -5px;
+  padding: 0 5px 0 5px;
+}
+
+.block-3 {
+  padding: 10px 20px 10px 20px;
+  margin: 0px 10px 10px 10px;
+  border: 1px solid #538ea3;
+}
+.block-3:before {
+  content: "SASSy Is The Way to Be";
+  text-transform: uppercase;
+  background: #fff;
+  position: absolute;
+  color: #538ea3;
+  font-size: 13px;
+  margin: -17px 0 0 -5px;
+  padding: 0 5px 0 5px;
+}
+
+/**
+Golden Ratio Blocks
+**/
+.golden-left {
+  float: left;
+  padding-top: 10px;
+  width: 61.8%;
+}
+
+.golden-right {
+  padding-top: 10px;
+  float: right;
+  width: 38.2%;
+}
